@@ -1,20 +1,20 @@
 [
     {
         "type": "File",
-        "name": "d:\\Project\\dev-project\\dev-Fill&Sin\\dev\\sass\\_colors.scss",
+        "name": "c:\\Users\\user\\Desktop\\lemon school\\dev-StarBacks24.12\\dev\\sass\\global.scss",
         "parent_id": null,
-        "fsPath": "d:\\Project\\dev-project\\dev-Fill&Sin\\dev\\sass\\_colors.scss",
+        "fsPath": "c:\\Users\\user\\Desktop\\lemon school\\dev-StarBacks24.12\\dev\\sass\\global.scss",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "p6ogKsvJ5Inc9bd3"
+        "id": "GFoBpxScIdZNnstq"
     },
     {
         "type": "File",
-        "name": "d:\\Project\\dev-project\\dev-Fill&Sin\\dev\\style.scss",
+        "name": "c:\\Users\\user\\Desktop\\lemon school\\dev-StarBacks24.12\\dev\\sass\\variables.scss",
         "parent_id": null,
-        "fsPath": "d:\\Project\\dev-project\\dev-Fill&Sin\\dev\\style.scss",
+        "fsPath": "c:\\Users\\user\\Desktop\\lemon school\\dev-StarBacks24.12\\dev\\sass\\variables.scss",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "U2AJb6PcVDlMBoeQ"
+        "id": "Lfbn8FW6pme0XAgd"
     }
 ]
