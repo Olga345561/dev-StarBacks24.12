@@ -103,6 +103,7 @@ h6,
 
     &.templete-title__row-reverse {
         flex-direction: row-reverse;
+        margin-left: auto;
     }
 
 }
@@ -214,7 +215,7 @@ a {
     max-width: 195px;
 }
 
-.conteiner {
+.container {
     max-width: 1278px;
     padding-left: 12px;
     padding-right: 12px;
@@ -251,6 +252,7 @@ a {
         height: var(--size);
         @include transform-centered;
         @include flex-centered;
+        transform: translate(-50%, -50%) rotate(-15deg);
 
     }
 

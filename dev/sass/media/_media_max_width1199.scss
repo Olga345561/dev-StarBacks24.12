@@ -1,5 +1,35 @@
 @media screen and (max-width: 1199px) {
-    .footer-nav {        
-        width: 700px;   
-}
+
+   
+    .templete-title {
+        max-width: 570px;
+        margin-bottom: 48px;
+
+        h1,
+        h2 {
+            font-size: 64px;
+            margin-bottom: 48px;
+        }
+
+        &.templete-title__row,
+        &.templete-title__row-reverse {           
+            max-width: 767px;
+            gap: 56px;
+            
+            h1,
+            h2,
+            h6 {
+                max-width: 330px;
+                margin-bottom: 0;
+            }
+        }
+
+        &.templete-title__row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .footer-nav {
+            width: 700px;
+        }
+    }
 }

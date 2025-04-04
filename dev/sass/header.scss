@@ -1,10 +1,15 @@
 .header {
     padding: 48px 0;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    background-color: #12151794;
+    position: fixed;
+    width: 100%;
 
     .container {
         --gap: 94px;
         display: flex;
-        gap: var(--gap)
+        gap: var(--gap);
     }
 
     &-nav {
@@ -12,7 +17,7 @@
         gap: var(--gap);
 
         &__item {
-            font-size: 20px;           
+            font-size: 20px;
             padding: 3px 0;
         }
     }
@@ -21,6 +26,7 @@
 .mobile-container {
     display: flex;
     align-items: center;
+
 }
 
 .btn-burger {
