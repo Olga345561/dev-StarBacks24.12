@@ -1,6 +1,6 @@
 @media screen and (max-width: 1199px) {
 
-   
+
     .templete-title {
         max-width: 570px;
         margin-bottom: 48px;
@@ -12,10 +12,10 @@
         }
 
         &.templete-title__row,
-        &.templete-title__row-reverse {           
+        &.templete-title__row-reverse {
             max-width: 767px;
             gap: 56px;
-            
+
             h1,
             h2,
             h6 {
@@ -26,10 +26,18 @@
 
         &.templete-title__row-reverse {
             flex-direction: row-reverse;
-        }
+        }        
+    }
 
-        .footer-nav {
-            width: 700px;
+    .advantages {
+        gap: 24px;
+        .label {
+            top: -12px;
+            left: -12px;                
         }
+    }
+    
+    .footer-nav {
+        width: 700px;
     }
 }
