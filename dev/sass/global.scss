@@ -124,6 +124,7 @@ a {
 }
 
 .btn {
+    --icon-size: 28px;
     padding: 23px 53px;
     border-radius: 45px;
     display: inline-block;
@@ -246,7 +247,7 @@ a {
     box-shadow: -4.5px 15.52px 26.48px #143e2875;
 
     &::before {
-        content: var(--content);  
+        content: var(--content);
         background: url(./assets/img/label.png) center/contain no-repeat;
         width: var(--size);
         height: var(--size);
@@ -259,18 +260,24 @@ a {
     &.label__text-large {
         font-size: 62px;
     }
-    
+
     &.label__sm {
         --size: 133px;
         font-size: 32px;
     }
-    
-    
+
+
 }
 
 .icon-svg {
+    margin-top: -4px;
+    vertical-align: middle;
     height: var(--icon-size);
     width: var(--icon-size);
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
 
 .show {
